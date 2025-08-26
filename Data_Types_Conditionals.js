@@ -25,4 +25,6 @@ console.log(output);
 
 let StringLength = "Applebananamangoorange";
 let CountLength = StringLength.length;
+let char = StringLength.charAt(4);
 console.log(CountLength);
+console.log(char);
