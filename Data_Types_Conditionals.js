@@ -1,3 +1,4 @@
+/*Data Types*/
 let name = "Pradeep";
 console.log(`Hello ${name}`);
 
@@ -43,3 +44,11 @@ let uppercasestring = SliceString.toUpperCase();
 console.log(SlicedString);
 console.log(SlicedString2);
 console.log(uppercasestring);
+
+/*Conditionals*/
+console.log(2>1);
+console.log(2!=2);
+console.log('2'<= 4);
+console.log(''== false); /* return true as the empty string is basically 0*/
+console.log (''=== true);/*Returns false as strict equality does not change the string to number*/
+
