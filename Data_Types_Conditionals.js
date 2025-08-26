@@ -26,5 +26,20 @@ console.log(output);
 let StringLength = "Applebananamangoorange";
 let CountLength = StringLength.length;
 let char = StringLength.charAt(4);
+let char2 = StringLength.at(5);
 console.log(CountLength);
 console.log(char);
+console.log(char2);
+
+let text1 = "Hello";
+let text2 = "Pradeep";
+let text3 = text1.concat(" this is ", text2);
+console.log(text3);
+
+let SliceString = "Apple Banana mango";
+let SlicedString = SliceString.slice(0, 12);
+let SlicedString2 = SliceString.substring(0, 12);
+let uppercasestring = SliceString.toUpperCase();
+console.log(SlicedString);
+console.log(SlicedString2);
+console.log(uppercasestring);
